@@ -1,0 +1,3 @@
+{% for customer in host.data.customers %}
+no ip vrf {{ customer.name }}
+{% endfor %}

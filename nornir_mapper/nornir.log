@@ -1,0 +1,2340 @@
+2022-01-16 17:29:27,303 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:40:10,572 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:43:10,516 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:44:47,663 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:44:48,348 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    neighbor_data.append(net_connect.send_command(f"show cdp entry {neighbor.keys()[0]}"))
+TypeError: 'dict_keys' object is not subscriptable
+
+2022-01-16 17:45:00,765 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:45:32,750 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:45:47,924 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:45:48,642 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    print(f"show cdp entry {neighbor.keys()[0]}")
+TypeError: 'dict_keys' object is not subscriptable
+
+2022-01-16 17:46:11,862 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:46:38,261 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:52:25,235 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:52:48,390 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:53:27,348 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:54:52,747 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:55:02,378 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:55:13,138 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:55:51,867 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:56:42,377 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:57:22,248 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:57:45,902 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 17:58:18,994 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:00:21,477 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:00:39,067 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:01:03,579 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:01:31,332 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:02:02,912 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:03:03,455 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:03:13,620 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:06:15,558 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:06:40,470 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:07:29,862 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:08:13,900 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:14:09,042 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:14:09,933 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:25:47,437 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:25:48,239 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:26:02,153 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:26:03,042 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:27:54,405 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:27:55,274 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:28:47,153 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:30:01,992 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:30:28,168 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:30:29,075 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:31:36,823 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:31:37,543 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 32, in map_neighbors
+    print(f"show cdp entry {list(neighbor.keys())[0]}")
+AttributeError: 'str' object has no attribute 'keys'
+
+2022-01-16 18:31:52,275 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:31:53,161 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:32:14,249 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:32:14,953 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 32, in map_neighbors
+    print(f"show cdp entry {list(neighbor.keys())[0]}")
+AttributeError: 'str' object has no attribute 'keys'
+
+2022-01-16 18:32:57,756 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:32:58,599 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:33:41,516 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:33:42,377 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:34:58,183 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:34:59,056 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:35:00,034 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-16 18:43:54,783 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:43:55,625 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:43:56,533 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-16 18:44:42,021 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:44:42,884 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:44:43,895 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-16 18:45:14,775 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:45:15,638 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:45:16,563 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-16 18:46:25,912 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:46:26,747 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:46:27,734 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-16 18:58:45,492 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:58:46,367 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:58:47,456 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 18:58:48,530 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 18:59:40,893 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 18:59:41,748 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 18:59:42,837 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 18:59:43,783 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:00:42,025 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:00:42,857 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:00:43,950 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:00:44,915 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:01:22,197 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:01:23,074 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:01:24,166 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:01:25,141 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:01:47,389 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:01:48,231 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:01:49,293 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:01:50,241 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:02:50,349 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:02:51,188 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:02:52,303 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:02:53,345 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:03:29,838 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:03:30,688 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:03:31,697 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:03:32,755 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:05:54,836 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:05:55,704 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:05:56,747 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:05:57,713 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:06:19,333 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:06:20,227 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:06:21,337 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:06:22,342 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:07:19,674 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:11:50,964 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:11:51,924 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:11:53,149 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:11:54,418 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:14:40,155 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:14:41,172 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:14:42,470 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:14:43,575 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:14:55,795 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:14:56,997 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-16 19:14:58,265 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:17:25,514 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:17:26,517 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-16 19:17:27,833 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-16 19:17:28,938 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-16 19:17:49,667 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-16 19:17:50,741 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-16 19:17:52,318 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-17 09:40:53,063 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-17 09:40:56,010 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-17 09:43:25,849 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-17 09:43:26,906 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-17 09:43:31,926 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/usr/lib/python3/dist-packages/paramiko/util.py", line 280, in retry_on_signal
+    return function()
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.0.1:22
+
+
+
+2022-01-17 09:44:50,414 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 2 hosts
+2022-01-17 09:44:51,517 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-17 09:44:56,527 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/usr/lib/python3/dist-packages/paramiko/util.py", line 280, in retry_on_signal
+    return function()
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.0.1:22
+
+
+
+2022-01-17 09:45:08,890 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-17 09:45:09,821 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-17 09:45:14,835 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/usr/lib/python3/dist-packages/paramiko/util.py", line 280, in retry_on_signal
+    return function()
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.0.1:22
+
+
+
+2022-01-17 09:47:50,095 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2022-01-17 09:47:51,022 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-17 09:53:18,243 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2022-01-17 09:53:19,383 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 4 hosts
+2022-01-17 09:53:20,485 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-17 23:58:40,673 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-17 23:58:43,762 - nornir.core.task -    ERROR -      start() - Host 'R5': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.50
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.50:22
+
+
+
+2022-01-17 23:58:43,764 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.40
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.40:22
+
+
+
+2022-01-17 23:58:43,765 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.20
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.20:22
+
+
+
+2022-01-17 23:58:43,767 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2022-01-17 23:58:43,768 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.30
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.30:22
+
+
+
+2022-01-22 15:38:13,374 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-22 15:38:16,467 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2022-01-22 15:38:16,468 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.40
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.40:22
+
+
+
+2022-01-22 15:38:16,470 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.30
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.30:22
+
+
+
+2022-01-22 15:38:16,470 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.20
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.20:22
+
+
+
+2022-01-22 15:38:16,472 - nornir.core.task -    ERROR -      start() - Host 'R5': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.50
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.50:22
+
+
+
+2022-01-22 15:38:22,655 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-22 15:38:25,734 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.40
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.40:22
+
+
+
+2022-01-22 15:38:25,735 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2022-01-22 15:38:25,735 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.20
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.20:22
+
+
+
+2022-01-22 15:38:25,735 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.30
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.30:22
+
+
+
+2022-01-22 15:38:25,736 - nornir.core.task -    ERROR -      start() - Host 'R5': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.50
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.50:22
+
+
+
+2022-01-22 21:11:31,584 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-01-22 21:11:34,674 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.30
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.30:22
+
+
+
+2022-01-22 21:11:34,676 - nornir.core.task -    ERROR -      start() - Host 'R5': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.50
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.50:22
+
+
+
+2022-01-22 21:11:34,678 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.40
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.40:22
+
+
+
+2022-01-22 21:11:34,681 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2022-01-22 21:11:34,682 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.20
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.20:22
+
+
+
+2022-02-11 16:40:13,326 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 5 hosts
+2022-02-11 16:40:16,417 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.40
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.40:22
+
+
+
+2022-02-11 16:40:16,418 - nornir.core.task -    ERROR -      start() - Host 'R5': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.50
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.50:22
+
+
+
+2022-02-11 16:40:16,419 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.30
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.30:22
+
+
+
+2022-02-11 16:40:16,420 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2022-02-11 16:40:16,422 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.20
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documentos/git/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.20:22
+
+
+
+2022-02-18 17:14:19,099 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show version'} on 5 hosts
+2022-02-18 17:14:22,182 - nornir.core.task -    ERROR -      start() - Host 'R5': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.50
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.50:22
+
+
+
+2022-02-18 17:14:22,183 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.40
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.40:22
+
+
+
+2022-02-18 17:14:22,185 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.30
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.30:22
+
+
+
+2022-02-18 17:14:22,186 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.20
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.20:22
+
+
+
+2022-02-18 17:14:22,187 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2022-02-18 17:15:17,147 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show version'} on 5 hosts
+2022-02-18 17:15:20,223 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.20
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xe 192.168.122.20:22
+
+
+
+2022-02-18 17:15:20,226 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.30
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.30:22
+
+
+
+2022-02-18 17:15:20,227 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.40
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.40:22
+
+
+
+2022-02-18 17:15:20,228 - nornir.core.task -    ERROR -      start() - Host 'R5': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.50
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.50:22
+
+
+
+2022-02-18 17:15:20,230 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/usr/lib/python3/dist-packages/paramiko/client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/.local/lib/python3.8/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 17, in __init__
+    return super().__init__(*args, **kwargs)
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 350, in __init__
+    self._open()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "/home/augustus/.local/lib/python3.8/site-packages/netmiko/base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2022-02-18 17:16:11,461 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show version'} on 1 hosts
+2022-02-18 17:23:44,487 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show version'} on 1 hosts
+2022-02-18 17:24:45,241 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show version'} on 1 hosts
+2022-02-18 17:25:54,567 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show version'} on 1 hosts
+2023-04-02 18:19:23,908 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:19:27,044 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2023-04-02 18:19:52,691 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:19:55,741 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2023-04-02 18:20:55,265 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:20:58,328 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.122.10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.122.10:22
+
+
+
+2023-04-02 18:21:19,314 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:21:36,012 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:22:20,556 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:23:31,103 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:23:52,101 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:25:17,916 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:26:51,824 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:26:53,325 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:27:03,338 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 365, in connect
+    sock.connect(addr)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 2.2.2.2:22
+
+
+
+2023-04-02 18:27:24,646 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:27:25,927 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:27:29,958 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 6 hosts
+2023-04-02 18:27:33,018 - nornir.core.task -    ERROR -      start() - Host 'R6': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 6.6.6.6
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 6.6.6.6:22
+
+
+
+2023-04-02 18:27:39,976 - nornir.core.task -    ERROR -      start() - Host 'R5': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 365, in connect
+    sock.connect(addr)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 5.5.5.5:22
+
+
+
+2023-04-02 18:27:47,817 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:27:49,297 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:27:51,982 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 6 hosts
+2023-04-02 18:27:55,018 - nornir.core.task -    ERROR -      start() - Host 'R6': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 6.6.6.6
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 6.6.6.6:22
+
+
+
+2023-04-02 18:28:00,514 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:28:01,796 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:28:04,349 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 6 hosts
+2023-04-02 18:28:07,391 - nornir.core.task -    ERROR -      start() - Host 'R6': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 6.6.6.6
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 6.6.6.6:22
+
+
+
+2023-04-02 18:31:22,251 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:31:23,741 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:31:26,476 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 6 hosts
+2023-04-02 18:31:29,524 - nornir.core.task -    ERROR -      start() - Host 'R6': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 6.6.6.6
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 23, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 6.6.6.6:22
+
+
+
+2023-04-02 18:34:12,235 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:34:13,702 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:34:16,489 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 6 hosts
+2023-04-02 18:34:21,356 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 7 hosts
+2023-04-02 18:36:50,524 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:36:53,746 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:37:03,758 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 365, in connect
+    sock.connect(addr)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 14, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 2.2.2.2:22
+
+
+
+2023-04-02 18:37:03,759 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 365, in connect
+    sock.connect(addr)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 14, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 3.3.3.3:22
+
+
+
+2023-04-02 18:37:36,116 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:37:37,543 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:37:40,594 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 2.2.2.2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 14, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 2.2.2.2:22
+
+
+
+2023-04-02 18:37:40,595 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'map_neighbors' failed with traceback:
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/paramiko/client.py", line 388, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 3.3.3.3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/plugins/tasks/cdp_map.py", line 14, in map_neighbors
+    net_connect = task.host.get_connection('netmiko', task.nornir.config)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/augustus/Documents/git/nornir-bth/nornir_mapper/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 3.3.3.3:22
+
+
+
+2023-04-02 18:37:54,332 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 1 hosts
+2023-04-02 18:37:55,830 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 3 hosts
+2023-04-02 18:38:00,198 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 6 hosts
+2023-04-02 18:38:05,764 -  nornir.core -     INFO -        run() - Running task 'map_neighbors' with args {} on 7 hosts

@@ -1,0 +1,2 @@
+name,hostname,username,password,platform,groups,port
+R1,1.1.1.1,cisco,cisco,cisco_ios,[],22
