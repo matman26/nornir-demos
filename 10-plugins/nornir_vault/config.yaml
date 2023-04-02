@@ -1,0 +1,10 @@
+inventory:
+  plugin: SimpleInventory
+  options:
+    host_file: inventory/hosts.yaml
+  transform_function: decrypt_password
+runner:
+  plugin: threaded
+  options:
+    num_workers: 20
+

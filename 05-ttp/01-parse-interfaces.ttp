@@ -1,0 +1,28 @@
+<doc>
+The template can be tested from the CLI with the given input using:
+ttp -t 01-interfaces.ttp -o json
+</doc>
+<input load="text">
+interface Ethernet0
+  description Management Interface
+  ip address 192.168.1.1 255.255.255.0
+!
+interface Ethernet2
+  description Test
+!
+interface GigabitEthernet1
+  description Service Interface
+!
+interface BundleEther10
+  description Aggregation
+  ip address 172.16.0.1 255.255.0.0
+</input>
+
+<group name='interfaces'>
+ <group name="{{name}}">
+interface {{ name }}
+  description {{ description | ORPHRASE }}
+  ip address {{ ip-address | IP }} {{ prefix | IP }}
+!{{_end_}}
+ </group>
+</group>

@@ -1,0 +1,48 @@
+<doc>
+The template can be tested from the CLI with the given input using:
+ttp -t 02-parse-neighbors.ttp -o json
+</doc>
+<input load="text">
+R1#show cdp neighbors detail
+-------------------------
+Device ID: R2.lab.local
+Entry address(es): 
+  IP address: 2.2.2.2
+Platform: Cisco 3725,  Capabilities: Router Switch IGMP 
+Interface: FastEthernet0/1,  Port ID (outgoing port): FastEthernet0/0
+Holdtime : 169 sec
+
+Version :
+Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T7, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Wed 13-Aug-08 21:36 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: ''
+Duplex: half
+
+-------------------------
+Device ID: R3.lab.local
+Entry address(es): 
+  IP address: 3.3.3.3
+Platform: Cisco 3725,  Capabilities: Router Switch IGMP 
+Interface: FastEthernet1/0,  Port ID (outgoing port): FastEthernet0/0
+Holdtime : 161 sec
+          
+Version : 
+Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T7, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Wed 13-Aug-08 21:36 by prod_rel_team
+          
+advertisement version: 2
+VTP Management Domain: ''
+Duplex: half
+</input>
+
+<group name="{{neighbor_name}}">
+Device ID: {{ neighbor_name }}
+  IP address: {{ neighbor_address }}
+Platform: {{ platform_string | ORPHRASE }},  Capabilities: {{ device_capabilities | ORPHRASE }}
+</group>
