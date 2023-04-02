@@ -1,0 +1,7 @@
+hosts:
+  - router1:
+      managed: False
+      address: 10.0.2.1
+  - router2:
+      managed: True
+      address: 10.0.2.2

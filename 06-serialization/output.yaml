@@ -1,0 +1,4 @@
+hosts:
+- router1: {address: 10.0.2.1, managed: false}
+- router2: {address: 10.0.2.2, managed: true}
+- router3: {address: 10.0.2.3, managed: false}
