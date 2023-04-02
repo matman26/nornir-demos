@@ -1,5 +1,8 @@
+from nornir.core.plugins.inventory import TransformFunctionRegister
 from nornir.core.task import Task, Result
+from nornir.core.inventory import Host
 from nornir import InitNornir
+from getpass import getpass
 
 def debug_task(task: Task) -> Result:
     return Result(
@@ -8,8 +11,30 @@ def debug_task(task: Task) -> Result:
         failed=False,
         changed=False)
 
-nr = InitNornir(config_file='config.yaml')
-agg_results = nr.run(task=debug_task)
+def insert_password(host: Host, password: str) -> None:
+    host.password = password
 
-for host, result in agg_results.items():
-    print(f"{host}: {result.result}")
+TransformFunctionRegister.register('insert_password', insert_password)
+
+nr = InitNornir(
+	inventory={
+	  'plugin': 'SimpleInventory',
+	  'options': {
+	    'host_file': "hosts.yaml"
+	  },
+      'transform_function': 'insert_password',
+      'transform_function_options': {
+        'password': getpass()
+      }
+	},
+	runner={
+	  'plugin': 'threaded',
+	  'options': {
+	    'num_workers': 20 
+	  }
+	})
+
+
+print("name", "hostname", "username", "password")
+for host, data in nr.inventory.hosts.items():
+    print(host, data.hostname, data.username, data.password)

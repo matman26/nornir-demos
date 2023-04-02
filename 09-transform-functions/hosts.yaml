@@ -1,12 +1,10 @@
 R1:
   hostname: 10.0.2.1
   username: cisco
-  password: cisco
   platform: cisco_ios
   port:     22
-R1:
+R2:
   hostname: 10.0.2.2
   username: cisco
-  password: cisco
   platform: cisco_ios
   port:     22
