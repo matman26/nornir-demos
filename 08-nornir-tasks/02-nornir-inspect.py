@@ -1,3 +1,4 @@
+import nornir_inspect
 from nornir.core.task import Task, Result
 from nornir import InitNornir
 

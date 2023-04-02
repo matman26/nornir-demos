@@ -53,3 +53,5 @@ Device settings: cisco_ios 10.0.2.1:22
 
 
 2023-04-01 17:40:32,979 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route'} on 1 hosts
+2023-04-02 12:32:02,862 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route'} on 1 hosts
+2023-04-02 12:32:40,979 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip route'} on 2 hosts
