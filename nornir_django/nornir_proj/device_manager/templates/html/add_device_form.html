@@ -1,0 +1,15 @@
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content w3-teal" style="max-width:1300px">
+ {% include 'html/topbar-devices.html' %}
+ <div class="w3-padding-64 w3-padding-large" style="min-height:800px">
+  <h1>Device-manager</h1>
+  <p class="w3-opacity">Adding new device</p>
+  <form action="{{ post }}" method="post" class="w3-card w3-container w3-white w3-padding-64">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" class="w3-button w3-teal w3-right" value="Submit">
+  </form>
+ </div>
+</body>
+</html>

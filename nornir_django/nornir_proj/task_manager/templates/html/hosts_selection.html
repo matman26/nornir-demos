@@ -1,0 +1,45 @@
+<div>
+    <p>Choose hosts or groups to execute</p>
+</div>
+<div>
+    <table class="w3-border w3-table">
+        <tr class="w3-indigo">
+            <td>
+                <input type="radio" id="forhost" for="selection" value="ByHost"  name="selection">
+                <label for="forhost">Select Hosts</label>
+            </td>
+            <td>
+                <input type="radio" id="forgroup" for="selection" value="ByGroup" name="selection">
+                <label for="forgroup">Select Groups</label>
+            </td>
+            <td>
+                <input type="radio" id="filter" for="selection" value="Filter" name="selection">
+                <label for="filter">Filter Expression</label>
+            </td>
+            <td>
+                <input type="radio" id="all" for="selection" value="AllHosts" name="selection" checked="checked">
+                <label for="filter">All</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                {% for host in hosts %}
+                <input type="checkbox" id="{{host.name}}" name="hosts" value="{{host.name}}">
+                    <label for="{{host.name}}">{{host.name}}</label><br>
+		</input>
+                {% endfor %}
+            </td>
+            <td>
+                {% for group in groups %}
+                <input type="checkbox" id="{{group.name}}" name="groups" value="{{group.name}}">
+                <label for="{{group.name}}">{{group.name}}</label><br>
+                {% endfor %}
+            </td>
+            <td>
+                <div>
+                    <input id="expression" name="filter" placeholder="Input filter expression">
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>

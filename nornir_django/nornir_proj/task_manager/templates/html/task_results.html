@@ -1,0 +1,17 @@
+<html>
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <body class="w3-content" style="max-width:1900px">
+  {% include 'html/topbar.html' %}
+  <div class="w3-row w3-teal w3-container">
+  {% for host, resultlist in results.items %}
+   <h1>{{ host }}</h1>
+   {% for result in resultlist %}
+   <div class="w3-card w3-white" style="max-width:700px text-align:center">
+    <h1>{{ result.name }}</h1>
+    <p>{{ result.result | linebreaks }}</p>
+   </div>
+   {% endfor %}
+  {% endfor %}
+  </div>
+ </body>
+</html>

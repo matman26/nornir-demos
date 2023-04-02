@@ -1,0 +1,35 @@
+<html>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <body class="w3-content" style="max-width:1900px">
+        {% include 'html/topbar.html' %}
+        <div class="w3-row w3-teal w3-container">
+            <div class="w3-card w3-white" style="max-width:700px text-align:center">
+                <div class="w3-container w3-padding-32">
+                    <h1>Execution History</h1>
+                    {% if results %}
+                    <table class="w3-table w3-border">
+                        <tr class="w3-indigo">
+                            <td class="timestamp">Timestamp</td>
+                            <td class="name">Name</td>
+                            <td class="hosts">Hosts</td>
+                            <td class="actions">Actions</td>
+                        </tr>
+                        {% for result in results reversed %}
+                        <tr>
+                            <td class="timestamp">{{ result.timestamp }}</td>
+                            <td class="name">{{ result.name }}</td>
+                            <td class="hosts">{{ result.hosts }}</td>
+                            <td class="actions">
+                                <a class="w3-button" href="/task-manager/show-result?id={{result.index}}">View</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                    {% else %}
+                    <p>No executions exist currently.</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

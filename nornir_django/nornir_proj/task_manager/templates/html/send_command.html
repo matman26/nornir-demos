@@ -1,0 +1,26 @@
+<html>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <body class="w3-content" style="max-width:1900px">
+        {% include 'html/topbar.html' %}
+        <div class="w3-row w3-teal w3-container">
+            <div class="w3-padding-64 w3-padding-large" style="max-width:700px text-align:center">
+                <h1>Send commands to devices</h1>
+                <form class="w3-card w3-container w3-padding-32 w3-white" action="/task-manager/send-command" method="post">
+                    {% csrf_token %}
+                    <label class="w3-section" for="name">Execution name: </label>
+                    <input class="w3-input"
+                           id="name"
+                           type="text"
+                           name="name" />
+                    <label class="w3-section" for="command">Enter command to run: </label>
+                    <input class="w3-input"
+                        id="command"
+                        type="text"
+                        name="command"
+                        value="show ip int brief" />
+                    <input style="float:right" class="w3-button w3-teal" type="submit" value="OK"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

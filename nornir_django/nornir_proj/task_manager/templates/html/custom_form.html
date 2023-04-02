@@ -1,0 +1,42 @@
+<html>
+    <script>
+     validateForm = function() {
+ 	var checks = $('input[type="checkbox"]:checked').map(function() {
+ 	return $(this).val();}).get()
+ 	document.getElementById("txt").innerHTML = checks;
+ 	return false;
+     }
+    </script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <body class="w3-content" style="max-width:1900px">
+        {% include 'html/topbar.html' %}
+        <div class="w3-row w3-teal w3-container">
+            <div class="w3-padding-64 w3-padding-large" style="max-width:700px text-align:center">
+                <h1>Task: {{ taskname }}</h1>
+                <form class="w3-card w3-container w3-padding-32 w3-white" action="/task-manager/run-custom-tasks?taskname={{task}}" method="post">
+                    {% csrf_token %}
+                    <label class="w3-section" for="taskname">Task name: </label>
+                    <input class="w3-input"
+                           id="taskname"
+                           type="text"
+                           name="taskname"
+                           value="{{task}}" />
+                    <label class="w3-section" for="name">Execution name: </label>
+                    <input class="w3-input"
+                           id="name"
+                           type="text"
+                           name="name" />
+                    {% for var in taskvars %}
+                    <label class="w3-section" for="{{var}}">{{var}}: </label>
+                    <input class="w3-input"
+                        id="{{var}}"
+                        type="text"
+                        name="{{var}}" />
+                    {% endfor %}
+                    {% include 'html/hosts_selection.html' %}
+                    <input style="float:right" class="w3-button w3-teal" type="submit" value="OK"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

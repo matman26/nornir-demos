@@ -1,0 +1,61 @@
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1900px">
+{% include 'html/topbar-devices.html' %}
+<div class="w3-row">
+ <div style="display:flex flex-direction:row">
+  <div class="w3-sidebar w3-bar-block w3-indigo w3-container w3-center" style="width:20%">
+    <div class="w3-padding-64">
+      <h1>Device Manager</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="/device-manager/add-device" class="w3-button w3-indigo w3-block w3-hover-blue w3-padding-16">Add Device</a>
+      <a href="/device-manager/add-group" class="w3-button w3-indigo w3-block w3-hover-blue w3-padding-16">Add Group</a>
+      <a href="/device-manager/set-defaults" class="w3-button w3-indigo w3-block w3-hover-blue w3-padding-16">Set Defaults</a>
+    </div>
+  </div>
+  <div class="w3-white w3-container" style="margin-left:20%">
+      <h1> Groups List </h1>
+{% if groups_list %}
+<div class="w3-container w3-responsive">
+ <table class="w3-table w3-border">
+  <tr class="w3-indigo">
+   <td class='name'>Name</td>
+   <td class='address'>Address</td>
+   <td class='username'>Username</td>
+   <td class='platform'>Platform</td>
+   <td class='port'>Port</td>
+   <td class='groups'>Groups</td>
+   <td class='actions'>Actions</td>
+  </tr>
+ {% for group in groups_list %}
+  {% if forloop.counter|divisibleby:2 %}
+  <tr class="w3-blue">
+   <td class='name'>{{ group.name }}</td>
+   <td class='address'>{{ group.hostname }}</td>
+   <td class='username'>{{ group.username }}</td>
+   <td class='platform'>{{ group.platform }}</td>
+   <td class='port'>{{ group.port }}</td>
+   <td class='groups'>{{ group.groups }}</td>
+   <td class='actions'><a href="/group-manager/remove?name={{group.name}}" method="POST">Remove</a></td>
+  </tr>
+  {% else %}
+  <tr class="w3-white">
+   <td class='name'>{{ group.name }}</td>
+   <td class='address'>{{ group.hostname }}</td>
+   <td class='username'>{{ group.username }}</td>
+   <td class='platform'>{{ group.platform }}</td>
+   <td class='port'>{{ group.port }}</td>
+   <td class='groups'>{{ group.groups }}</td>
+   <td class='actions'><a href="/group-manager/remove?name={{group.name}}" method="POST">Remove</a></td>
+  </tr>
+  {% endif %}
+{% endfor %}
+  </table>
+ </div>
+</div>
+{% else %}
+<p>No groups to list.</p>
+{% endif %}
+</body>
+<html>
